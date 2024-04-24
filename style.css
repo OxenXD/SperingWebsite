@@ -1,0 +1,383 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+margin: 0;
+}
+
+nav{
+    padding: 10px 25px;/* vertical, horizontal */
+}
+
+header{
+    background-color:#3604aa;
+    width:100%;
+}
+
+.logo{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.logo img{
+    display:inline-block;
+    width:35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+ul {
+    display:inline-block;
+  }
+
+li {
+  display:inline;
+}
+  
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+ 
+
+  .header-page{
+    color: white;
+  text-decoration: none;
+  padding: 5px;
+  }
+
+  .login-link {
+    display: inline-block;
+    margin-top: 6px;
+  }
+
+  .headerbg{
+    display: flex;
+  }
+  .header-left{
+    flex-basis: 56.66%;
+    background-color:#3604aa;
+    
+    
+  }
+
+  .header-right{
+    flex-basis: 43.33%;
+    background-color:#6b46c4;
+    
+  }
+
+  .slider-image{
+    display:block;
+    width:100%;
+    margin-top:50px;
+  }
+
+  .header-content-left{
+    color: white;
+    padding:40px;
+    padding-left: 60px;
+  }
+
+  .header-content-right {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 60px;
+  }
+
+  .header-content1{
+    font-size:37px;
+    text-transform:uppercase;
+  }
+
+  .header-content2{
+    font-size:20px;
+  }
+  
+  .button-about{
+    width:75px;
+    display:inline-block;
+    text-decoration:none;
+    text-align:center;
+    background-color:tomato;
+    color:white;
+    padding:10px 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border:1px solid transparent;
+    transition: 0.3s;
+  }
+
+  .button-about:hover{
+    background-color:transparent;
+    color:tomato;
+    border: 1px solid tomato;
+  }
+
+  .button-quote{
+    width:75px;
+    display:inline-block;
+    text-decoration:none;
+    background-color:white;
+    color:black;
+    text-align:center;
+    padding:10px 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
+
+  .button-quote:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .login-link{
+     display: inline-block;
+     margin-top: 6px;
+     color: rgb(234, 125, 218);
+  }
+
+  /*----------------- Bagian Section -------------------*/
+  section {
+    vertical-align: middle;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  .sectionbg{
+    display:flex;
+    background-color: white;
+    padding-bottom:50px;
+  }
+
+  .section-left{
+    flex-basis: 22.33%;
+  }
+
+  .section-content-left{
+    padding-top: 130px;
+    padding-left: 40px;
+    padding-right: 35px;
+  }
+
+  .section-right{
+    flex-basis: 78.66%;
+  }
+
+  .section-content-right{
+    padding-top: 100px;
+    padding-right:35px;
+   
+  }
+
+  .section-content1{
+    font-size:37px;
+    text-transform:uppercase;
+  }
+
+  .section-content2{
+    font-size:20px;
+  }
+
+  .button-readmore{
+    width:75px;
+    display:inline-block;
+    text-decoration:none;
+    text-align:center;
+    background-color:tomato;
+    color:white;
+    padding:10px 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border:1px solid transparent;
+    transition: 0.3s;
+  }
+
+  .button-readmore:hover{
+    background-color:transparent;
+    color:tomato;
+    border: 1px solid tomato;
+  }
+
+  .button-hire{
+    width:75px;
+    display:inline-block;
+    text-decoration:none;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:10px 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
+
+  .button-hire:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .category{
+    background-color: #6b46c4;
+    padding-top: 5px;
+    padding-bottom: 60px;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .category-title{
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+  }
+
+  .category-top{
+  display: inline-block;
+  }
+
+  .category-content{
+    display:flex;
+    flex-wrap:wrap;
+    border:0px;
+    align-items:center;
+  }
+
+  .category-item{
+    flex-basis: 33.33%;
+    text-align: center;
+    text-decoration:none;
+    color:white;
+  }
+
+  .category-image{
+    display:inline-block;
+    width:60px;
+    height:50px;
+    text-align: center;
+  }
+  
+  .category-image2{
+    display:inline-block;
+    width:60px;
+    height:50px;
+    text-align: center;
+  }
+
+
+  .about{
+    background-color: white;
+    padding-bottom:50px;
+  }
+  
+  .about-image{
+   text-align: center;
+  }
+
+  .about-title{
+    text-align: center;
+    font-size:35px;
+  }
+  
+  .about-text{
+    text-align: center;
+  }
+
+
+  /*----------------- Bagian Footer -------------------*/
+
+  footer{
+    background-color:#3604aa;
+    color: white;
+padding:50px 50px;
+  }
+  
+  .footer-head{
+    display:flex;
+    justify-content: space-between;
+    margin:20px 0;
+  }
+
+  .footer-head-img{
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .footer-body{
+    display:flex;
+    column-gap:10px;
+    justify-content:space-between;
+  }
+
+  .footer-body-1{
+    display:flex;
+    color: white;
+    text-decoration: none;
+  }
+  .footer-body ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-body>div{
+    font-size:13px;
+  }
+  
+
+  .footer-body>div:nth-child(1){
+    flex-basis:20%;
+  }
+
+  .footer-body>div:nth-child(2){
+    flex-basis:25%;
+  }
+
+  .footer-body>div:nth-child(3){
+    flex-basis:20%;
+  }
+
+  .footer-body>div:nth-child(4){
+    flex-basis:20%;
+  }
+
+  .footer-body>div:nth-child(4)>button {
+    padding: 5px 20px;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    border: solid 1px white;
+    margin: 5px 0;
+  }
+
+  .footer-bottom{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+  }
+
+  .footer-bottom a{
+    color:white;
+    text-decoration: none;
+  }
+
+  .footer-bottom img{
+    display:inline-block;
+    width: 35px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+
+
